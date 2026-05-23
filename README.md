@@ -4,6 +4,8 @@ En este pryecyo se aborda el análisis y modelado de un dataset de ventas global
 
 ## 1. Carga y Análisis Exploratorio de Datos (EDA)
 
+El Análisis Exploratorio de Datos (EDA) del dataset `cleaned_global_video_game_sales.csv` reveló una estructura de `11470 filas y 14 columnas` sin valores nulos. Se observó que las `Global_Sales` tenían una distribución asimétrica, con predominio de juegos con bajas ventas. El análisis por `año` identificó períodos de mayor lanzamiento y las `plataformas` principales fueron `PSTow`, `DS` y `PS`. Finalmente, la visualización de `ventas por género` permitió entender la rentabilidad de cada categoría, ofreciendo una visión integral de las tendencias del mercado en el conjunto de datos.
+
 ## 2. Modelos de Regresión (Predicción de `Global_Sales`)
 
 Se probaron varios modelos de regresión:
