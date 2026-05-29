@@ -1,6 +1,6 @@
 # Resumen del Análisis y Modelado de Ventas de Videojuegos
 
-En este pryecyo se aborda el análisis y modelado de un dataset de ventas globales de videojuegos, cubriendo la carga de datos, EDA, modelado de regresión, clasificación y clustering.
+En este proyecto se aborda el análisis y modelado de un dataset de ventas globales de videojuegos, cubriendo la carga de datos, EDA, modelado de regresión, clasificación y clustering.
 
 ## 1. Carga y Análisis Exploratorio de Datos (EDA)
 
@@ -37,42 +37,4 @@ Se exploraron métodos para identificar patrones de agrupamiento:
 *   Para **Regresión**, el **GradientBoostingRegressor** fue el modelo más eficaz.
 *   Para **Clasificación**, **RandomForestClassifier** y **LogisticRegression** ofrecieron buen rendimiento, el segundo destacando en `Recall`.
 *   En **Clustering**, **DBSCAN** mostró la mejor separación entre los grupos identificados, a pesar de la presencia de ruido.
-# Estructura del proyecto
-
-modelos-machine-learning/
-│
-├── conf/ # Configuración de Kedro
-├── data/ # Datos del proyecto
-│ ├── 01_raw/
-│ ├── 02_intermediate/
-│ ├── 03_primary/
-│ ├── 04_feature/
-│ ├── 05_model_input/
-│ ├── 06_models/
-│ └── 07_model_output/
-│
-├── notebooks/
-│ ├── 01_exploratory_analysis.ipynb
-│ ├── 02_supervised_modeling.ipynb
-│ ├── 03_model_evaluation.ipynb
-│ ├── 04_hyperparameter_optimization.ipynb
-│ └── 05_final_analysis.ipynb
-│
-├── src/
-│ └── modelos_machine_learning/
-│ ├── data_preprocessing.py
-│ ├── model_training.py
-│ ├── model_evaluation.py
-│ └── hyperparameter_tuning.py
-│
-├── models/
-│ └── trained_models/
-│
-├── results/
-│ ├── metrics/
-│ ├── plots/
-│ └── reports/
-│
-├── requirements.txt
-└── README.md
 
